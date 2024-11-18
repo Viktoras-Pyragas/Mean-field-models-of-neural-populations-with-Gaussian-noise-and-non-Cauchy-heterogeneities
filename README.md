@@ -37,6 +37,3 @@ equations for Fourier components;
 Fig5aux/Gauss_ode/ -> Here we integrate the nonlinear equations 
 for Fourier components (for normal distribution) in order to find the stable fixed point. 
 This fixed point will be used in the Newton iterations;
-
-
-
