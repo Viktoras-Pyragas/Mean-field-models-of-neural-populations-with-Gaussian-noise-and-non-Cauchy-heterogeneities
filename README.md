@@ -26,6 +26,7 @@ for Fourier components (for uniform distribution) in order to find the stable fi
 This fixed point will be used in the Newton iterations;
 
 The subdirectories:
+
 /Fig5/ -> computing and plotting Hopf biffurcations for normal distribution;
 /Fig6/ -> computing and plotting dynamics for normal distribution;
 
