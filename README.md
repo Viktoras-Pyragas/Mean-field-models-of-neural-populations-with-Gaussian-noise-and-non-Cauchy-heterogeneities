@@ -34,10 +34,10 @@ The subdirectories:
 
 /Fig6/ -> computing and plotting dynamics for normal distribution;
 
-Fig5aux/Gauss_Lin_Eqs/ -> Hopf bifurcation for normal distribution
+/Fig5aux/Gauss_Lin_Eqs/ -> Hopf bifurcation for normal distribution
 Here we perform the Newton iterations with the linearized 
 equations for Fourier components;
 
-Fig5aux/Gauss_ode/ -> Here we integrate the nonlinear equations 
+/Fig5aux/Gauss_ode/ -> Here we integrate the nonlinear equations 
 for Fourier components (for normal distribution) in order to find the stable fixed point. 
 This fixed point will be used in the Newton iterations;
