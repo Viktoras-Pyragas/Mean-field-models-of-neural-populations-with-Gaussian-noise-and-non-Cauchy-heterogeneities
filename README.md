@@ -9,6 +9,7 @@ The directories:
 
 /Fig1/ -> plotting uniform distribution;
 /Fig4/ -> plotting normal distribution;
+
 /Fig2_Fig_3/ -> plotting Hopf biffurcations and dynamics for uniform distribution;
 
 /Fig5/ and /Fig6/  -> plotting Hopf biffurcations and dynamics for normal distribution;
