@@ -20,7 +20,7 @@ The subdirectories:
 
 /Fig3/ -> dynamics for uniform distribution;
 
-/Fig2_aux/Uniform_Lin_Eqs/ -> Hopf bifurcation for uniform distribution
+/Fig2_aux/Uniform_Lin_Eqs/ -> Hopf bifurcation for uniform distribution;
 Here we perform the Newton iterations with the linearized 
 equations for Fourier components;
 
@@ -34,7 +34,7 @@ The subdirectories:
 
 /Fig6/ -> computing and plotting dynamics for normal distribution;
 
-/Fig5aux/Gauss_Lin_Eqs/ -> Hopf bifurcation for normal distribution
+/Fig5aux/Gauss_Lin_Eqs/ -> Hopf bifurcation for normal distribution;
 Here we perform the Newton iterations with the linearized 
 equations for Fourier components;
 
