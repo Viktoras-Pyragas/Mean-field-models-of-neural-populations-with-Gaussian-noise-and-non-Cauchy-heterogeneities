@@ -1,0 +1,50 @@
+% Uniform apprksimacija fiksuojant half width
+close all
+clear 
+d=1; % half width
+my_color=0.7*[1 1 1];
+mm=[1,2,6,10];
+m_min=1;
+m_max=10;
+N=500;
+x=linspace(-5*d, 5*d,N);
+nm=length(mm);
+gr=zeros(nm,N);
+for j=1:nm
+    m=mm(j);
+Cr=ones(1,N)*m*sin(pi/2/m)/pi;
+gr(j,:)=Cr./(1+x.^(2*m));
+end
+gR=zeros(1,N);
+gR(1,200:300)=0.5;
+figure
+hold on;
+%G=plot(x,gG,'-','Color',my_color,'LineWidth',3);
+plot(x,gR,'-','Color',my_color,'LineWidth',3);
+plot(x,gr(1,:),'-.b','LineWidth',1)
+plot(x,gr(2,:),'--k','LineWidth',1)
+plot(x,gr(3,:),':r','LineWidth',1)
+plot(x,gr(4,:),'-r','LineWidth',1)
+
+ylim([-0.01,0.51])
+ax = gca;
+ax.Layer='top';
+lgd=legend({'uniform','n=1','n=2','n=6','n=10'});
+%lgd=legend({'uniform','n=1','n=2','n=6','n=10'},'Location','northwest');
+aa=lgd.Position
+lgd.Position=[0.69    0.670    0.1643    0.2048];
+              %lgd = legend('One','Two','Three','Four');
+              lgd.FontSize = 8;
+              legend boxoff;
+%rect_v = [0.15, 0.81, 0.25, 0.15];              
+%uistack(G,'bottom')
+%legend({'$m=1$','$m=2$','$m=5$','m=10','$m=\infty$'},'Interpreter','latex')
+xlabel('$\zeta$','Interpreter','latex','FontSize',10);
+ylabel('$f_n(\zeta)$','Interpreter','latex','FontSize',10);
+set(gcf,'Units','centimeters')
+set(gcf, 'PaperSize', [8.5,7]);
+set(gcf,'Position',[2,2,8.5,7])
+
+
+%plot(x,gG,'-r')
+
