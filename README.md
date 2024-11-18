@@ -10,11 +10,13 @@ The directories:
 /Fig1/ -> plotting uniform distribution;
 /Fig4/ -> plotting normal distribution;
 /Fig2_Fig_3/ -> plotting Hopf biffurcations and dynamics for uniform distribution;
-/Fig5_Fig6/  -> plotting Hopf biffurcations and dynamics for normal distribution;
+
+/Fig5/ and /Fig6/  -> plotting Hopf biffurcations and dynamics for normal distribution;
 
 The subdirectories:
 
 /Fig2_Fig3/Fig2 -> Hopf bifurcation for uniform distribution
+
 /Fig2_Fig3/Fig3 -> dynamics for uniform distribution;
 
 /Fig2_Fig3/Fig2_aux/Uniform_Lin_Eqs/ -> Hopf bifurcation for uniform distribution
@@ -28,6 +30,7 @@ This fixed point will be used in the Newton iterations;
 The subdirectories:
 
 /Fig5/ -> computing and plotting Hopf biffurcations for normal distribution;
+
 /Fig6/ -> computing and plotting dynamics for normal distribution;
 
 Fig5aux/Gauss_Lin_Eqs/ -> Hopf bifurcation for normal distribution
