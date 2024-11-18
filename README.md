@@ -10,21 +10,21 @@ The directories:
 /Fig1/ -> plotting uniform distribution;
 /Fig4/ -> plotting normal distribution;
 
-/Fig2_Fig_3/ -> plotting Hopf biffurcations and dynamics for uniform distribution;
+/Fig2/ and /Fig_3/ -> plotting Hopf biffurcations and dynamics for uniform distribution;
 
 /Fig5/ and /Fig6/  -> plotting Hopf biffurcations and dynamics for normal distribution;
 
 The subdirectories:
 
-/Fig2_Fig3/Fig2 -> Hopf bifurcation for uniform distribution
+/Fig2/ -> Hopf bifurcation for uniform distribution
 
-/Fig2_Fig3/Fig3 -> dynamics for uniform distribution;
+/Fig3/ -> dynamics for uniform distribution;
 
-/Fig2_Fig3/Fig2_aux/Uniform_Lin_Eqs/ -> Hopf bifurcation for uniform distribution
+/Fig2_aux/Uniform_Lin_Eqs/ -> Hopf bifurcation for uniform distribution
 Here we perform the Newton iterations with the linearized 
 equations for Fourier components;
 
-/Fig2_Fig3/Fig2_aux/Uniform_ode/ -> Here we integrate the nonlinear equations 
+/Fig2_aux/Uniform_ode/ -> Here we integrate the nonlinear equations 
 for Fourier components (for uniform distribution) in order to find the stable fixed point. 
 This fixed point will be used in the Newton iterations;
 
