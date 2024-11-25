@@ -1,4 +1,6 @@
 %----------------------------------------------------------------------
+% readme_files.txt
+%----------------------------------------------------------------------
 % We here take the case of normal heterogeneity distribution;
 %----------------------------------------------------------------------
 % Here we plot 4 bifurcation diagrams with supercritical Hopf
