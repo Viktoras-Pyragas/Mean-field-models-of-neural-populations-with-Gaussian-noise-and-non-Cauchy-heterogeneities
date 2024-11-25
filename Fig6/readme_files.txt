@@ -1,4 +1,6 @@
 %-------------------------------------------------------------------------------
+% readme_files.txt
+%-------------------------------------------------------------------------------
 % Here we compute and plot graphs, in which are compared post-transient dynamics
 % of microscopic and macroscopic models; for macroscopic model we chose
 % n=6 (Gaussian heterogeneity distribution), and for microscopic - the normal (n->infty) 
