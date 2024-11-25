@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------------------
-% readme_ode_norm.txt
+% readme_files.txt
 %--------------------------------------------------------------------------------
 % Here we integrate the ODEs of Fourier components with normal heterogeneity with 
 % integer parameter n=2; (it can be changed);
