@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------------------
-% readme_ode_flat.txt
+% readme_files.txt
 %--------------------------------------------------------------------------------
 % Here we integrate the ODEs of Fourier components with flat heterogeneity with 
 % integer parameter n=2; (it can be changed);
